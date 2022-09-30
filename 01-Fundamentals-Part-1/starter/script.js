@@ -22,4 +22,12 @@ let myCurrentJob = "Teacher";
 console.log(myFirstJob);
 
 
-// JS Fundamentals P1 Asgmt1
+// JS Fundamentals P1 Assignments
+
+// L1
+let country = "Canada";
+let continent = "North America";
+let population = 42;
+
+// L2
+
