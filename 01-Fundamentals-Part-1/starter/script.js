@@ -27,8 +27,8 @@ console.log(myFirstJob);
 
 // L1 Assignment
 
-let country = "Canada";
-let continent = "North America";
+const country = "Canada";
+const continent = "North America";
 let population = 42; // In millions
 
 
@@ -59,7 +59,6 @@ console.log(typeof null);
 // L2 Assignment
 
 let isIsland = country;
-let language;
 
 console.log(typeof isIsland);
 console.log(typeof population);
@@ -69,4 +68,23 @@ console.log(typeof language);
 
 
 // Lecture 3
+/*
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+
+var job = "programmer";
+job = "teacher";
+*/
+
+// L3 Assignment
+
+const language = "English";
+
+
+
+// Lecture 4
+
+
 
