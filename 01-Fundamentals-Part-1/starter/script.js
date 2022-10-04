@@ -126,7 +126,7 @@ const description = "Canada is in North America. The two official languages are 
 
 
 //Lecture 5 - Operator Prededence
-
+/*
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -139,3 +139,37 @@ console.log(x,y);
 
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
+*/
+
+
+
+///Lecture 6 - Strings and Template Literals
+/*
+const firstName = "Jonas";
+const job = "Teacher";
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ", a" + (year - birthYear) + "years old" + job + "!";
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(jonasNew);
+
+console.log("String with \n\
+mupltiple \n\
+lines");
+
+console.log(`More
+on
+new
+lines`);
+*/
+
+//L6 Assignment
+const descriptionEdit = `${country} is in North America and has a population of ${population} million`
+console.log(descriptionEdit)
+
+
+
+//Lecture 7 if/else Statements
