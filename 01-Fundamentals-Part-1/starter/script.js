@@ -205,4 +205,25 @@ if(population > 33) {
 
 
 // Type Conversion and Coercion
+/*
+// Type Conversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Jonas"));
+
+console.log(String(23), 23);
+
+// Type Coercion
+
+console.log("I am " + 23 + " years old"); // '+' converts numbers to strings
+console.log("23" - "10" - 3); // '-' converts strings to numbers
+
+console.log("23" * "2"); // '*' and  '/' converts everything to numbers only
+*/
+
+
+
+// Truthy and Falsy
 
