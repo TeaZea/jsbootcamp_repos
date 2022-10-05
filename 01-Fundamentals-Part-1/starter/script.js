@@ -250,3 +250,43 @@ if(height) {
 }
 */
 
+// Equality Operators
+/*
+const age = '18';
+if (age === 18) console.log("You just became an adult! (strict)");
+
+// '==' perfomes type coercion, '===' is strict and doesn't perfome coercion
+
+if (age == 18) console.log("You just became an adult! (loose)");
+
+const favourite = Number(prompt("What's your favourite number?"));
+console.log(favourite);
+
+if (favourite === 23) {
+    console.log("Cool! 23 is an amazing number!");
+} else if (favourite === 7) {
+    console.log("7 is also a cool number")
+} else {
+    console.log("Number is not 23 or 7");
+}
+
+if (favourite !== 23) console.log("Why not 23?");
+*/
+
+// Equality Assignment
+/*
+let numNeighbours = Number(prompt("How many neighbour countries does your country have?"));
+
+if (numNeighbours === 1){
+    console.log("only 1 border!");
+} else if (numNeighbours > 1) {
+    console.log("More than 1 neighbour!");
+} else {
+    console.log("No borders!");
+}
+*/
+
+
+
+// Boolean Logic
+
