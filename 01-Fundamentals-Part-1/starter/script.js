@@ -58,7 +58,7 @@ console.log(typeof null);
 
 // L2 Assignment
 
-let isIsland = country;
+let isIsland = false;
 
 console.log(typeof isIsland);
 console.log(typeof population);
@@ -288,5 +288,39 @@ if (numNeighbours === 1){
 
 
 
-// Boolean Logic
+// Logical Operators
+/*
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+if(shouldDrive) {
+    console.log("Sarah is able to drive!");
+} else {
+    console.log("Someone else shouldd drive.");
+}
+
+const isTired = false;
+
+console.log(hasDriversLicense || hasGoodVision || isTired);
+
+if(hasDriversLicense && hasGoodVision && !isTired) {
+    console.log("Sarah is able to drive!");
+} else {
+    console.log("Someone else shouldd drive...");
+}
+*/
+
+// Logical Operators Assignment
+
+if(population <= 50 && language === "English" && !isIsland) {
+    console.log("You should live in Canada!");
+} else {
+    console.log("Canada does not meet your criteria.");
+}
 
