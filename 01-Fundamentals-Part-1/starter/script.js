@@ -377,3 +377,22 @@ switch(language) {
     default:
         console.log("Great language too!");
 }
+
+
+
+
+// Conditional Operator/Ternary Operator
+/*
+const age = 23;
+// age >= 18 ? console.log("I like to drink wine.") : console.log("I like to drink water.")
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+*/
+
+// Conditional Assignment
+
+console.log(`Canada's population is ${population >= 33 ? "above average" : "below average"}`);
+
