@@ -53,3 +53,10 @@ if (avgDolphines > avgKoalas && avgDolphines >= 100) {
 } else {
     console.log("No one wins!");
 }
+
+// Challenge 4
+const bill = 275;
+let tip;
+
+console.log(`The bill is: ${bill}, so the tip is:${tip = bill >= 50 && bill <= 300 ? 15 / 100 * bill : 20 / 100 * bill}. So the total value is ${bill + tip}`);
+
