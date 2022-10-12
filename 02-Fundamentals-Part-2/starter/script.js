@@ -55,3 +55,48 @@ console.log(canada, usa, bulgaria);
 
 // Declerations and Expressions
 
+// Function decleration - can declare before the function if need
+/*
+function calcAge1(birthYear) {
+    return 2037 - birthYear;
+}
+const age1 = calcAge1(1991);
+
+console.log(age1);
+
+// Function expression
+// Expressions produce values
+const calcAge2 = function (birthYear) {
+    return 2037 - birthYear;
+}
+const age2 = calcAge2(1991);
+
+console.log(age1, age2);
+*/
+
+// Decleration & Expression Assignment
+
+// Decleration
+function percentageOfWorld1(population) {
+    return population / 7900 * 100;
+}
+
+const percent1 = percentageOfWorld1(42);
+const percent2 = percentageOfWorld1(300);
+const percent3 = percentageOfWorld1(6);
+console.log(percent1, percent2, percent3);
+
+// Expression
+
+const percentageOfWorld2 = function (population) {
+    return population / 7900 * 100;
+}
+const perc1= percentageOfWorld2(42);
+const perc2= percentageOfWorld2(300);
+const perc3= percentageOfWorld2(6);
+console.log(perc1, perc2, perc3);
+
+
+
+// Arrow Function
+
