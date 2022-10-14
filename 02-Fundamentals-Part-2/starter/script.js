@@ -99,4 +99,30 @@ console.log(perc1, perc2, perc3);
 
 
 // Arrow Function
+/*
+const calcAge3 = birthYear => 2037 - birthYear;
+const age3 = calcAge3(1991);
+console.log(age3);
+
+const yearsUntilRetirement = (birthYear, firstName) => {
+    const age = 2037 - birthYear;
+    const retirement = 65 - age;
+    // return retirement;
+    return `${firstName} retires in ${retirement} years.`;
+}
+
+console.log(yearsUntilRetirement(1991, 'Bob'));
+*/
+
+// Arrow Function Assignment
+
+const percentageOfWorld3 = population => population / 7900 * 100;
+const perc4 = percentageOfWorld3(42);
+console.log(perc4);
+
+
+
+// Functions Calling Other Functions
+
+
 
