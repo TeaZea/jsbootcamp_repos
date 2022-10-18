@@ -292,7 +292,7 @@ console.log(neighbours);
 /*
 const jonas = {
     firstName: "Jonas",
-    lastName: "Schmedtmass",
+    lastName: "Schmedtmann",
     age: 2037 - 1991,
     job: "Teacher",
     friends: ["Micheal", "Steven", "Peter"]
@@ -311,6 +311,51 @@ const myCountry = {
 
 
 
+// Dot & Bracket Notation
+/*
+const jonas = {
+    firstName: "Jonas",
+    lastName: "Schmedtmann",
+    age: 2037 - 1991,
+    job: "Teacher",
+    friends: ["Micheal", "Steven", "Peter"]
+};
+console.log(jonas);
+
+// Dot
+console.log(jonas.lastName);
+
+// Brackets
+console.log(jonas['lastName']);
+
+const nameKey = "Name";
+console.log(jonas["first" + nameKey]);
+console.log(jonas["last" + nameKey]);
+
+//const interestedIn = prompt("What do you want to know about Jonas? Choose betweem firstName, lastName, age, job, and friends");
+
+// if (jonas[interestedIn]) {
+//     console.log(jonas[interestedIn]);
+// } else {
+//     console.log('Wrong request!');
+// }
+
+jonas.location = "Portugal";
+jonas["twitter"] = "@jonasschmedtmann";
+console.log(jonas);
+
+console.log(`${jonas.firstName} has ${jonas.friends.length} friends and his best friend is ${jonas.friends[0]}`);
+*/
+
+// Dot & Bracket Assignment
+
+myCountry.population = 44;
+console.log(myCountry);
+
+myCountry["population"] = 42;
+console.log(myCountry);
 
 
+
+// Object Methods
 
