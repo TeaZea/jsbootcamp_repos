@@ -233,4 +233,62 @@ console.log(percentages);
 
 
 // Methods
+/*
+// Push (add to end)
+const friends = ["Micheal", "Steven", "Peter"];
+const newLength = friends.push("Jay");
+console.log(friends);
+console.log(newLength);
+
+// Unshift (add to the begining of the array)
+friends.unshift("John");
+console.log(friends);
+
+// Pop (remove)
+friends.pop();
+const popped = friends.pop()
+console.log(popped);
+console.log(friends);
+
+// Shift (remove first element)
+friends.shift();
+console.log(friends);
+
+// Return value of index
+console.log(friends.indexOf("Steven"));
+
+console.log(friends.includes("Steven"));
+console.log(friends.includes("Bob"));
+
+// Conditional experiment
+
+if (friends.includes("Peter")) {
+    console.log("You have a friend called Peter");
+} else {
+    console.log("You don't have a friend called Peter");
+}
+*/
+
+// Methods Assignment
+
+const neighbours = ["Romania", "Greece", "Turkey"];
+neighbours.push("Utopia");
+neighbours.pop();
+console.log(neighbours);
+
+if (neighbours.includes("Germany")) {
+    console.log("You're probably in Europe!");
+} else {
+    console.log("You're probably NOT in Europe!");
+}
+
+neighbours[neighbours.indexOf("Turkey")] = "Turkei";
+
+console.log(neighbours);
+
+
+
+
+
+
 
