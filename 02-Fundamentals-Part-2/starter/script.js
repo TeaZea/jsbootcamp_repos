@@ -288,6 +288,28 @@ console.log(neighbours);
 
 
 
+// Intro to Objects
+/*
+const jonas = {
+    firstName: "Jonas",
+    lastName: "Schmedtmass",
+    age: 2037 - 1991,
+    job: "Teacher",
+    friends: ["Micheal", "Steven", "Peter"]
+};
+*/
+
+// Objects Assignment
+
+const myCountry = {
+    country: "Canada",
+    capital: "Ottawa",
+    language: ["English", "French"],
+    population: 42,
+    neighbours: "USA"
+};
+
+
 
 
 
