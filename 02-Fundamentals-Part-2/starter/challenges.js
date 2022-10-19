@@ -35,3 +35,41 @@ const total = [bills[0] + calcTip(bills[0]), bills[1] + calcTip(bills[1]), bills
 console.log(total);
 
 
+
+// Challenge 3
+
+// BMI Formula
+// weight / height ** 2;
+
+const mark = {
+    fullName: "Mark Miller",
+    mass: 78, // In kg
+    height: 1.69, // In meters
+
+    calcBMI: function () {
+        this.bmi = this.mass / this.height ** 2;
+        return this.bmi;
+    }
+};
+
+const john = {
+    fullName: "John Smith",
+    mass: 92,
+    height: 1.95,
+
+    calcBMI: function () {
+        this.bmi = this.mass / this.height ** 2;
+        return this.bmi;
+    }
+};
+
+// NEED TO CALL FUNCTION!
+mark.calcBMI();
+john.calcBMI();
+
+if(mark.bmi > john.bmi) {
+    console.log(`${mark.fullName} (${mark.bmi}) is higher than John's (${john.bmi})!`);
+} else {
+    console.log(`${john.fullName} (${john.bmi}) is higher than Mark's (${mark.bmi})!`);
+}
+
