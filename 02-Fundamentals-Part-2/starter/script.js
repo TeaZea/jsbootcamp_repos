@@ -299,16 +299,28 @@ const jonas = {
 };
 */
 
-// Objects Assignment
+// Objects Assignment + Object Method Assignment
 
 const myCountry = {
     country: "Canada",
     capital: "Ottawa",
     language: ["English", "French"],
     population: 42,
-    neighbours: "USA"
+    neighbours: ["USA"],
+
+    describe: function () {
+        return `${this.country} has a population of ${this.population} million people, ${this.neighbours.length} neighboring countries and a capital city called: ${this.capital}.`
+    },
+
+    checkIsland: function () {
+        if (myCountry.neighbours === 0) {
+            myCountry.checkIsland = True;
+        }
+    }
 };
 
+console.log(myCountry.describe());
+console.log(myCountry);
 
 
 // Dot & Bracket Notation
@@ -349,6 +361,8 @@ console.log(`${jonas.firstName} has ${jonas.friends.length} friends and his best
 
 // Dot & Bracket Assignment
 
+console.log(`${myCountry.country} has a population of ${myCountry.population} million people, ${myCountry.neighbours.length} neighboring countries and a capital city called: ${myCountry.capital}.`)
+
 myCountry.population = 44;
 console.log(myCountry);
 
@@ -358,4 +372,48 @@ console.log(myCountry);
 
 
 // Object Methods
+/*
+const jonas = {
+    firstName: "Jonas",
+    lastName: "Schmedtmann",
+    birthYear: 1991,
+    job: "Teacher",
+    friends: ["Micheal", "Steven", "Peter"],
+    hasDriversLicense: true,
+
+    // calcAge: function(birthYear) {
+    //     return 2037 - birthYear;
+    // }
+
+    // calcAge: function() {
+    //     return 2037 - this.birthYear;
+    // }
+
+    calcAge: function () {
+        this.age = 2037 - this.birthYear;
+        return this.age;
+    },
+
+    // Ternerary function inside the return string
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()} years old ${this.job} and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license.`
+    }
+};
+
+// console.log(jonas.calcAge(jonas.birthYear));
+// console.log(jonas['calcAge'](1991));
+
+// Need to calculate the age once
+console.log(jonas.calcAge());
+// Then retrieve the answer afterwards
+console.log(jonas.age);
+console.log(jonas.getSummary());
+*/
+
+// Object Methods Assignment - done in previous space
+
+
+
+//
+
 
