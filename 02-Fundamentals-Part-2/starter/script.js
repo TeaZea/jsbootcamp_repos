@@ -438,4 +438,65 @@ for (let vote = 1; vote <= 50; vote++) {
 
 
 // Looping Arrays, Breaking Conditions
+/*
+const jonas = [
+    "Jonas",
+    "Schmedtmann",
+    2037 - 1991,
+    "Teacher",
+    ["Micheal", "Steven", "Peter"],
+    true
+];
+
+const types = [];
+
+//Arrays are always 0-based
+for (let i = 0; i < jonas.length; i++) {
+    console.log(jonas[i]);
+
+    // Filling array
+    //types[i] = typeof jonas[i];
+
+    types.push(typeof jonas[i]);
+}
+
+console.log(types);S
+for (let i = 0; i <= years.length; i++) {
+    ages.push(2037 - years[i]);
+}
+
+console.log(ages);
+
+console.log("----ONLY STRINGS----");
+
+// Continue (continues through the loop)
+for (let i = 0; i < jonas.length; i++) {
+    if (typeof jonas[i] !== "string") continue;
+    console.log(jonas[i], typeof jonas[i]);
+}S
+
+// Break (stops the loop)
+
+console.log("----BREAK WITH NUMBER----");
+
+// Continue (continues through the loop)
+for (let i = 0; i < jonas.length; i++) {
+    if (typeof jonas[i] === "number") break;
+    console.log(jonas[i], typeof jonas[i]);
+}
+*/
+
+// Looping Arrays, Break & Continue Assignment
+
+const percentages2 = [];
+
+for (let i = 0; i < populations.length; i++) {
+    const perc = percentageOfWorld1(populations[i]);
+    percentages2.push(perc);
+}
+
+console.log(percentages2);
+
+
+// Looping Backwards & Loops in Loops
 
