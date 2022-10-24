@@ -499,4 +499,52 @@ console.log(percentages2);
 
 
 // Looping Backwards & Loops in Loops
+/*
+const jonas = [
+    "Jonas",
+    "Schmedtmann",
+    2037 - 1991,
+    "Teacher",
+    ["Micheal", "Steven", "Peter"],
+];
+
+for (let i = jonas.length - 1; i >=0; i--) {
+    console.log(i, jonas[i]);
+}
+
+for (let exercise = 1; exercise < 4; exercise++) {
+    console.log(`------ starting exercise ${exercise}`);
+
+    for (let rep = 1; rep < 6; rep++) {
+        console.log(`Exercise ${exercise}: Lifting weights repetition ${rep}!`);
+    }
+}
+*/
+
+// Looping Assignment
+
+const listOfNeighbours = [
+    ["Canada", "Mexico"],
+    ["Spain"],
+    ["Norway", "Sweeden", "Russia"]
+];
+
+// for (let i = listOfNeighbours.length; i <= listOfNeighbours.length; i++) {
+//     let newstr = listOfNeighbours.split('');
+
+//     for (let i = newstr.length; i <=newstr.length; i++) {
+//         console.log(newstr[i]);
+//     }
+// }
+
+for (let i = 0; i < listOfNeighbours.length; i++) {
+
+    for (let y = 0; y < listOfNeighbours[i].length; y++) {
+        console.log(`${listOfNeighbours[i][y]}`);
+    }
+}
+
+
+
+// While Loop
 
