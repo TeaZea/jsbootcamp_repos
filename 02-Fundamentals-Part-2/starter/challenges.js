@@ -73,3 +73,24 @@ if(mark.bmi > john.bmi) {
     console.log(`${john.fullName} (${john.bmi}) is higher than Mark's (${mark.bmi})!`);
 }
 
+
+// Challenge 4
+
+const bill = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+let tips = [];
+let totals = [];
+
+for (let i = 0; i < bill.length; i++) {
+    calc = calcTip(bill[i]);
+    tips.push(calc);
+    totals.push(tips[i] + bill[i]);
+}
+
+console.log("-----tips below----");
+console.log(tips);
+console.log("-----totals below----");
+console.log(totals);
+
+//BONUS CHALLENGE
+
+
