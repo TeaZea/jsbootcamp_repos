@@ -81,7 +81,7 @@ let tips = [];
 let totals = [];
 
 for (let i = 0; i < bill.length; i++) {
-    calc = calcTip(bill[i]);
+    let calc = calcTip(bill[i]);
     tips.push(calc);
     totals.push(tips[i] + bill[i]);
 }
@@ -91,6 +91,15 @@ console.log(tips);
 console.log("-----totals below----");
 console.log(totals);
 
-//BONUS CHALLENGE
+//CODE ALONG CHALLENGE
 
+const calcAverages = function(arr) {
+    let sum = 0;
+    for(let i = 0; i < arr.length; i++) {
+        // sum = sum + arr[i];
+        sum += arr[i];
+    }
+    return sum / arr.length;
+}
 
+console.log(calcAverages(totals));
