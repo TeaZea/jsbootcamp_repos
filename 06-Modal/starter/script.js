@@ -23,3 +23,11 @@ const closeModal = function () {
 
 btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
+
+// Listener for 'escape' key
+document.addEventListener('keydown', function (e) {
+  // check if escape key and class is not hidden
+  if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+    closeModal();
+  }
+});
